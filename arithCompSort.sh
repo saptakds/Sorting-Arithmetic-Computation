@@ -18,3 +18,7 @@ do
 	valArr[$index]=$i
 	((index++))
 done
+for j in ${computes[@]}
+do
+	echo $j
+done | sort -nr
