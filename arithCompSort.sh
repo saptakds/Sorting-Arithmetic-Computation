@@ -22,3 +22,8 @@ for j in ${computes[@]}
 do
 	echo $j
 done | sort -nr
+echo "Results in ascending order..."
+for k in ${computes[@]}
+do
+	echo $k
+done | sort
