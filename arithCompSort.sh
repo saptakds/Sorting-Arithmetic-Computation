@@ -11,3 +11,10 @@ computes[1]=$compute1
 computes[2]=$compute2
 computes[3]=$compute3
 computes[4]=$compute4
+valArr=()
+index=0
+for i in ${computes[@]}
+do
+	valArr[$index]=$i
+	((index++))
+done
